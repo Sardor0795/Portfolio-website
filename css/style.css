@@ -397,4 +397,8 @@ select:-webkit-autofill:focus {
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
+  .hero__inner {
+    min-height: 600px;
+    background-image: url("../img/hero-img@2x.jpg");
+  }
 }
