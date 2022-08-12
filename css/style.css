@@ -107,7 +107,7 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: #fff;
-  color: var(--light-grey);
+  color: var(--dark-blue);
   font-family: "Public Sans", "Arial", sans-serif;
   padding: 0;
   margin: 0;
@@ -195,7 +195,7 @@ select:-webkit-autofill:focus {
 
 .primary-btn {
   font-style: italic;
-  font-weight: 250;
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
@@ -262,14 +262,14 @@ select:-webkit-autofill:focus {
 
 .btn-secondary {
   font-style: italic;
-  font-weight: 250;
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--light-grey);
+  color: var(--dark-blue);
   padding: 17px 32px;
-  border: 1px solid var(--grayish-dark-blue);
+  border: 1px solid var(--dark-blue);
   transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
 }
 .btn-secondary:hover {
@@ -387,6 +387,55 @@ select:-webkit-autofill:focus {
   color: var(--dark-blue);
   padding-bottom: 0;
   margin-bottom: 53px;
+}
+
+/* ABOUT */
+
+.about {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.about__container {
+  display: flex;
+}
+
+.about__img {
+  width: 540px;
+  height: 600px;
+  object-fit: cover;
+  margin-right: 125px;
+}
+
+.about__content {
+  max-width: 350px;
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.about__title {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.btn-secondary {
 }
 
 /* RETINA BG */
