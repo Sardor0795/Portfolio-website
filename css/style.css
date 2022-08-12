@@ -424,12 +424,13 @@ body::-webkit-scrollbar-track {
 /* ABOUT */
 
 .about {
-  padding-top: 150px;
+  padding-top: 130px;
   padding-bottom: 150px;
 }
 
 .about__container {
   display: flex;
+  padding-top: 20px;
 }
 
 .about__img {
