@@ -610,6 +610,8 @@ body::-webkit-scrollbar-track {
   margin-top: 115px;
   margin-bottom: 115px;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* PROJECT CONTENT */
@@ -672,7 +674,51 @@ body::-webkit-scrollbar-track {
   margin-right: 3px;
 }
 
-.btn-secondary {
+/* PROJECT INFO */
+
+.info {
+  max-width: 635px;
+}
+
+.info__title {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -0.285714px;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.info__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.info__preview {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.285714px;
+  margin-bottom: 28px;
+}
+
+.info__img {
+  width: 635px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.info__img:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 /* RETINA BG */
