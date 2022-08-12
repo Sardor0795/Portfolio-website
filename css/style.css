@@ -293,36 +293,6 @@ select:-webkit-autofill:focus {
   opacity: unset;
 }
 
-/* CONTACT */
-
-.contact {
-  margin-bottom: 150px;
-}
-
-.contact__container {
-  display: flex;
-  align-items: center;
-}
-
-.contact__title {
-  font-family: "Ibarra Real Nova";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357143px;
-  max-width: 350px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.contact__line {
-  display: inline-block;
-  flex-grow: 1;
-  border-top: 1px solid var(--light-grey);
-  margin-right: 32px;
-}
-
 /* MAIN CONTENT */
 
 .main-content {
@@ -342,16 +312,19 @@ select:-webkit-autofill:focus {
   justify-content: space-between;
 }
 
-.site-header__logo-wrapper {
+.site-header__logo-wrapper,
+.site-footer__logo-wrapper {
   display: flex;
   transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
 }
 
-.site-header__logo-wrapper:hover {
+.site-header__logo-wrapper:hover,
+.site-footer__logo-wrapper:hover {
   opacity: 0.8;
 }
 
-.site-header__logo-wrapper:active {
+.site-header__logo-wrapper:active,
+.site-footer__logo-wrapper:active {
   opacity: 0.6;
   transform: translateY(2px);
 }
@@ -393,7 +366,8 @@ select:-webkit-autofill:focus {
   color: var(--cyan);
 }
 
-.nav__link:active {
+.nav__link:active,
+.site-footer__social-wrapper:active {
   opacity: 0.6;
   transform: translateY(2px);
 }
@@ -478,7 +452,64 @@ select:-webkit-autofill:focus {
   margin-bottom: 24px;
 }
 
-.btn-secondary {
+/* CONTACT */
+
+.contact {
+  margin-bottom: 150px;
+}
+
+.contact__container {
+  display: flex;
+  align-items: center;
+}
+
+.contact__title {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  max-width: 350px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact__line {
+  display: inline-block;
+  flex-grow: 1;
+  border-top: 1px solid var(--light-grey);
+  margin-right: 32px;
+}
+
+/* FOOTER */
+
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: var(--grayish-dark-blue);
+}
+
+.site-footer__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer__logo-wrapper {
+  margin-right: 48px;
+}
+
+.site-footer__nav .nav__link {
+  color: var(--light-grey);
+}
+
+.site-footer__socials {
+  margin-left: auto;
+  display: flex;
+}
+
+.site-footer__social-wrapper:not(:last-child) {
+  margin-right: 15px;
 }
 
 /* RETINA BG */
