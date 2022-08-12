@@ -599,7 +599,6 @@ body::-webkit-scrollbar-track {
 }
 
 .project__hero {
-  background-image: url("../img/manage-hero-img.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
