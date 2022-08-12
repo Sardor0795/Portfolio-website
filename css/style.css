@@ -608,7 +608,6 @@ body::-webkit-scrollbar-track {
 
 .project__info-wrapper {
   margin-top: 115px;
-  margin-bottom: 115px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -720,6 +719,89 @@ body::-webkit-scrollbar-track {
 
 .info__img:not(:last-child) {
   margin-bottom: 32px;
+}
+
+/* PROJECT PAGES SWITCH */
+
+.project__switch {
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  margin-bottom: 115px;
+  display: flex;
+}
+
+.switch__wrapper {
+  flex-grow: 1;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.switch__wrapper:first-child {
+  border-right: 1px solid var(--light-grey);
+}
+
+.switch__wrapper:last-child {
+  text-align: right;
+}
+
+.switch__prev {
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.switch__img {
+  width: 8px;
+  height: 16px;
+  margin-right: 32px;
+  color: var(--grayish-dark-blue);
+}
+
+.switch__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.switch__project-name {
+  display: inline-block;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.285714px;
+  color: var(--grayish-dark-blue);
+}
+
+.switch__switch-name {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.switch__next {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+.switch__next .switch__img {
+  margin-right: 0;
+  margin-left: 32px;
+}
+
+.switch__prev:hover,
+.switch__next:hover {
+  opacity: 0.8;
+}
+
+.switch__prev:active,
+.switch__next:active {
+  opacity: 0.6;
 }
 
 /* RETINA BG */
