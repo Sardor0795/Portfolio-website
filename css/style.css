@@ -208,7 +208,7 @@ select:-webkit-autofill:focus {
   display: flex;
   align-items: center;
   padding: 0;
-  transition: color 0.3s ease, opacity 0.3s ease;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
 }
 .primary-btn__img-wrapper {
   width: 48px;
@@ -217,6 +217,7 @@ select:-webkit-autofill:focus {
   align-items: center;
   justify-content: center;
   background-color: var(--grayish-dark-blue);
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
 }
 .primary-btn__img {
   width: 18px;
