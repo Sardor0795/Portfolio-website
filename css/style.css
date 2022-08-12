@@ -258,11 +258,34 @@ select:-webkit-autofill:focus {
   color: #fff;
 }
 
+/* BTN SECONDARY */
+
+.btn-secondary {
+  font-style: italic;
+  font-weight: 250;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--light-grey);
+  padding: 17px 32px;
+  border: 1px solid var(--grayish-dark-blue);
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+.btn-secondary:hover {
+  background-color: var(--grayish-dark-blue);
+  color: #fff;
+}
+.btn-secondary:active {
+  opacity: 0.6;
+}
+
 /* MAIN CONTENT */
 
 .main-content {
   flex-grow: 1;
   padding: 60px;
+  background-color: rgb(181, 133, 133);
 }
 
 /* RETINA BG */
