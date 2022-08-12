@@ -296,7 +296,6 @@ select:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
   padding: 60px;
-  background-color: rgb(181, 133, 133);
 }
 
 /* RETINA BG */
