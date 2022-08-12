@@ -98,8 +98,7 @@ html {
 }
 
 *:focus {
-  outline: 2px dashed var(--main-color);
-  outline-offset: 3px;
+  outline: unset;
 }
 
 body {
@@ -531,7 +530,7 @@ body::-webkit-scrollbar-track {
 /* --- PORTFOLIO PAGE --- */
 
 .portfolio {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 150px;
 }
 
@@ -592,8 +591,87 @@ body::-webkit-scrollbar-track {
   margin-top: 0;
   margin-bottom: 24px;
 }
-.portfolio__btn {
+
+/* ABOUT PROJECT PAGES */
+
+.project {
+  padding-top: 30px;
 }
+
+.project__hero {
+  background-image: url("../img/manage-hero-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  min-height: 500px;
+}
+
+.project__info-wrapper {
+  margin-top: 115px;
+  margin-bottom: 115px;
+  display: flex;
+}
+
+/* PROJECT CONTENT */
+
+.project__content {
+  max-width: 350px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.project__title {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.project__text {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.project__relative-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.relative__links-link,
+.relative__links-devider {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5fb4a2;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.relative__links-link:hover {
+  color: #f3603c;
+}
+
+.relative__links-link:active {
+  opacity: 0.6;
+}
+
+.relative__links-devider {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
 .btn-secondary {
 }
 
