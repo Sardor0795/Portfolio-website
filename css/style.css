@@ -612,6 +612,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-bottom: 64px;
 }
 
 /* PROJECT CONTENT */
