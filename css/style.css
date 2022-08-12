@@ -528,6 +528,75 @@ body::-webkit-scrollbar-track {
   margin-right: 15px;
 }
 
+/* --- PORTFOLIO PAGE --- */
+
+.portfolio {
+  padding-top: 40px;
+  padding-bottom: 150px;
+}
+
+.portfolio__card {
+  display: flex;
+}
+
+.portfolio__card:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.portfolio__img {
+  width: 540px;
+  height: 500px;
+  object-fit: contain;
+  margin-right: 125px;
+}
+
+.portfolio__content {
+  max-width: 350px;
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  padding-top: 103px;
+  padding-bottom: 103px;
+}
+
+.portfolio__card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.portfolio__card:nth-child(even) .portfolio__img {
+  margin-right: 0;
+}
+
+.portfolio__card:nth-child(even) .portfolio__content {
+  margin-right: 125px;
+}
+
+.portfolio__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  margin-bottom: 28px;
+}
+
+.portfolio__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.portfolio__btn {
+}
+.btn-secondary {
+}
+
 /* RETINA BG */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
