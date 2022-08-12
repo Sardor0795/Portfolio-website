@@ -280,6 +280,17 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
+.btn-secondary--disabled {
+  color: var(--very-light-grey);
+  border-color: var(--light-grey);
+}
+.btn-secondary--disabled:hover {
+  background-color: unset;
+}
+.btn-secondary--disabled:active {
+  opacity: unset;
+}
+
 /* MAIN CONTENT */
 
 .main-content {
