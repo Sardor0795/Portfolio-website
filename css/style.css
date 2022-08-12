@@ -147,7 +147,7 @@ button {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1210px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -295,7 +295,63 @@ select:-webkit-autofill:focus {
 
 .main-content {
   flex-grow: 1;
-  padding: 60px;
+}
+
+/* HEADER */
+
+.site-header {
+  margin-top: 10px;
+  padding: 54px 0px;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header__logo-wrapper {
+  display: flex;
+}
+
+.site-header__logo {
+  margin-right: 25px;
+}
+
+.logo {
+  width: 60px;
+  height: 32px;
+  display: block;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 42px;
+}
+
+.nav__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.nav__link:hover,
+.nav__link.active {
+  color: var(--cyan);
+}
+
+.nav__link:active {
+  opacity: 0.6;
 }
 
 /* RETINA BG */
