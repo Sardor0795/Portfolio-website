@@ -240,6 +240,7 @@ select:-webkit-autofill:focus {
 }
 .primary-btn:active {
   opacity: 0.6;
+  transform: translateY(2px);
 }
 
 /* BTN PRIMARY DISABLED */
@@ -278,6 +279,7 @@ select:-webkit-autofill:focus {
 }
 .btn-secondary:active {
   opacity: 0.6;
+  transform: translateY(2px);
 }
 
 .btn-secondary--disabled {
@@ -289,6 +291,36 @@ select:-webkit-autofill:focus {
 }
 .btn-secondary--disabled:active {
   opacity: unset;
+}
+
+/* CONTACT */
+
+.contact {
+  margin-bottom: 150px;
+}
+
+.contact__container {
+  display: flex;
+  align-items: center;
+}
+
+.contact__title {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  max-width: 350px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact__line {
+  display: inline-block;
+  flex-grow: 1;
+  border-top: 1px solid var(--light-grey);
+  margin-right: 32px;
 }
 
 /* MAIN CONTENT */
@@ -312,6 +344,16 @@ select:-webkit-autofill:focus {
 
 .site-header__logo-wrapper {
   display: flex;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.site-header__logo-wrapper:hover {
+  opacity: 0.8;
+}
+
+.site-header__logo-wrapper:active {
+  opacity: 0.6;
+  transform: translateY(2px);
 }
 
 .site-header__logo {
@@ -353,6 +395,7 @@ select:-webkit-autofill:focus {
 
 .nav__link:active {
   opacity: 0.6;
+  transform: translateY(2px);
 }
 
 /* HERO */
