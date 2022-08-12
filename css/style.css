@@ -343,6 +343,7 @@ select:-webkit-autofill:focus {
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+  color: var(--dark-blue);
 }
 
 .nav__link:hover,
@@ -352,6 +353,40 @@ select:-webkit-autofill:focus {
 
 .nav__link:active {
   opacity: 0.6;
+}
+
+/* HERO */
+
+.hero__inner {
+  min-height: 600px;
+  background-image: url("../img/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero__content {
+  max-width: 445px;
+  background-color: #fafafa;
+  padding-top: 55px;
+  padding-right: 55px;
+}
+
+.hero__title {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 0;
+  margin-top: 0;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+  color: var(--dark-blue);
+  padding-bottom: 0;
+  margin-bottom: 53px;
 }
 
 /* RETINA BG */
