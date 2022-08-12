@@ -293,6 +293,20 @@ select:-webkit-autofill:focus {
   opacity: unset;
 }
 
+/* BODY CUSTOM SCROOL */
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--dark-blue);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--light-grey);
+}
+
 /* MAIN CONTENT */
 
 .main-content {
