@@ -929,10 +929,9 @@ select:-webkit-autofill:focus {
   color: var(--cyan);
 }
 
-.inputs__textarea:not(:focus):placeholder-shown,
-.inputs__input:not(:focus):placeholder-shown {
+.inputs__textarea:not(:focus):placeholder-shown:empty,
+.inputs__input:not(:focus):placeholder-shown:empty {
   border-color: var(--bright-red);
-
 }
 .inputs__textarea:not(:focus):not(:placeholder-shown),
 .inputs__input:not(:focus):not(:placeholder-shown) {
