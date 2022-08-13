@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo website</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-header__container container">
+            <a href="index.html" class="site-header__logo-wrapper">
+                <img class="site-header__logo logo" src="./img/logo.svg" alt="site logo" width="60" height="32">
+            </a>
+            <nav class="site-header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="index.html">HOME</a></li>
+                    <li class="nav__item"><a class="nav__link" href="portfolio.html">PORTFOLIO</a></li>
+                    <li class="nav__item"><a class="nav__link active" href="#">CONTACT ME</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <div class="get">
+            <div class="get__container container">
+                <h2 class="get__title">Get in Touch</h2>
+                <div class="get__content">
+                    <p class="get__text">I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I’m also happy to hear about opportunites that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.</p>
+                    <div class="site-footer__socials">
+                        <a href="#" class="site-footer__social-wrapper">
+                            <img class="site-footer__social" src="./img/github-black.svg" alt="Git icon" width="24" height="24">
+                        </a>
+                        <a href="#" class="site-footer__social-wrapper">
+                            <img class="site-footer__social" src="./img/twitter-black.svg" alt="Twitter icon" width="24" height="24">
+                        </a>
+                        <a href="#" class="site-footer__social-wrapper">
+                            <img class="site-footer__social" src="./img/in-black.svg" alt="In icon" width="24" height="24">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="send">
+            <div class="send__container container">
+                <h2 class="send__title">Contact Me</h2>
+                <form class="form" action="https://echo.htmlacademy.ru">
+
+                        <label for="input" class="inputs__label">Name</label>
+                        <input class="inputs__input" id="input" name="name" type="text" placeholder="Jane Appleseed">
+
+
+                        <label for="email" class="inputs__label">Email Address</label>
+                        <input class="inputs__email" id="email" name="email" type="email" placeholder="email@example.com">
+
+
+                        <label for="text" class="inputs__label">Message</label>
+                        <textarea class="inputs__textarea" name="text" id="text" placeholder="How can I help?"></textarea>
+
+                    <button class="btn-secondary" type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__container container">
+            <a href="index.html" class="site-footer__logo-wrapper">
+                <img class="site-footer__logo" src="./img/white-logo.svg" alt="site-footer logo" width="60" height="32">
+            </a>
+            <nav class="site-footer__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="index.html">HOME</a></li>
+                    <li class="nav__item"><a class="nav__link" href="portfolio.html">PORTFOLIO</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">CONTACT ME</a></li>
+                </ul>
+            </nav>
+            <div class="site-footer__socials">
+                <a href="#" class="site-footer__social-wrapper">
+                    <img class="site-footer__social" src="./img/git.svg" alt="Git icon" width="24" height="24">
+                </a>
+                <a href="#" class="site-footer__social-wrapper">
+                    <img class="site-footer__social" src="./img/twitter.svg" alt="Twitter icon" width="24" height="24">
+                </a>
+                <a href="#" class="site-footer__social-wrapper">
+                    <img class="site-footer__social" src="./img/in.svg" alt="In icon" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
