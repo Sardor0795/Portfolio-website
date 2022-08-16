@@ -98,7 +98,8 @@ html {
 }
 
 *:focus {
-  outline: unset;
+  outline: 2px dashed var(--cyan);
+  outline-offset: 3px;
 }
 
 body {
@@ -317,10 +318,6 @@ body::-webkit-scrollbar-track {
 .site-footer__logo-wrapper:active {
   opacity: 0.6;
   transform: translateY(2px);
-}
-
-.site-header__logo {
-  margin-right: 25px;
 }
 
 .logo {
