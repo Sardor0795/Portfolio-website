@@ -710,10 +710,13 @@ body::-webkit-scrollbar-track {
 
 .switch__wrapper:first-child {
   border-right: 1px solid var(--light-grey);
+  display: flex;
 }
 
 .switch__wrapper:last-child {
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .switch__prev {
